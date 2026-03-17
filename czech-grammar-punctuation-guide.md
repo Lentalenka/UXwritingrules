@@ -1,44 +1,43 @@
-# Pravidla české gramatiky a interpunkce pro bankovní aplikace
+# Pravidla české gramatiky a interpunkce pro Air Bank
 
-Příručka shrnuje pravidla české gramatiky, pravopisu, interpunkce a typografie, která je třeba dodržovat při psaní UX textů v bankovních a finančních mobilních a webových aplikacích. Vychází z doporučení Ústavu pro jazyk český AV ČR (ÚJČ), normy ČSN 01 6910 a zavedené praxe v českém digitálním prostředí.
+Tahle příručka je tu proto, aby se nám všem psalo líp a hlavně stejně. Najdete v ní pravidla českého pravopisu, interpunkce a typografie, která dodržujeme v textech naší aplikace a webu. Vychází z doporučení Ústavu pro jazyk český (ÚJČ), normy ČSN 01 6910 a osvědčené praxe v digitálním prostředí.
+
+Píšeme pro lidi, ne pro úředníky. Ale i lidský jazyk má svá pravidla.
 
 ---
 
 ## 1. Vykání – velké V, nebo malé v?
 
-### Oficiální pravidlo ÚJČ
+### Co říká Ústav pro jazyk český
 
-Psaní zájmen `Vy`, `Vám`, `Váš` s velkým písmenem je předepsáno jako projev úcty a zdvořilosti **v dopisech a korespondenci**, ať už se obrací k jedné osobě, více osobám, nebo kolektivu.
+Velké `Vy`, `Vám`, `Váš` je předepsané pro vyjádření úcty **v dopisech a korespondenci**. Pravidlo ale vzniklo pro klasické dopisy a na digitální produkty se výslovně nevztahuje.
 
-### Pravidlo pro digitální produkty
+### Jak to děláme my
 
-Pravidlo vzniklo pro tradiční korespondenci a **explicitně nepokrývá** digitální produkty (weby, aplikace, UX texty).
+V aplikaci a na webu píšeme **malé `vy/vás/váš`**. Oslovujeme totiž všechny naše klienty najednou, ne jednoho konkrétního člověka. Velké V si šetříme na osobní komunikaci.
 
-| Kontext | Doporučení | Příklad |
+| Kde | Jaké v | Příklad |
 |---|---|---|
-| Rozhraní aplikace (UI) | malé `vy/vás/váš` | `Zkontrolujte si váš zůstatek` |
+| Aplikace (UI) | malé `vy/vás/váš` | `Zkontrolujte si váš zůstatek` |
 | Nápověda, FAQ, články | malé `vy/vás/váš` | `Jak si změníte heslo` |
-| Marketingové materiály | malé `vy/vás/váš` | `Založte si účet a získejte bonus` |
+| Marketing | malé `vy/vás/váš` | `Založte si účet a získejte bonus` |
+| Push notifikace | malé `vy/vás/váš` | `Na váš účet přišla platba` |
+| Chatbot | malé `vy/vás/váš` | `Jak vám mohu pomoci?` |
 | Osobní e-mail klientovi | velké `Vy/Vás/Váš` | `Vážený pane Nováku, Váš požadavek…` |
 | Odpověď na reklamaci | velké `Vy/Vás/Váš` | `Potvrzujeme, že Vaše reklamace…` |
-| Chatbot / živý chat | malé `vy/vás/váš` | `Jak vám mohu pomoci?` |
-| Push notifikace | malé `vy/vás/váš` | `Na váš účet přišla platba` |
 
-### Pravidlo pro bankovní aplikace
+### Na co si dát pozor
 
-- V **UI aplikace** používejte **malé `vy/váš`** – jedná se o hromadnou, neadresnou komunikaci.
-- V **individuální korespondenci** (e-maily o reklamacích, osobní zprávy klientovi) používejte **velké `Vy/Váš`**.
-- Zvolenou variantu **dodržujte konzistentně** v celém produktu. Neměňte velké a malé V mezi obrazovkami.
-
-> **Bankovní specifika:** Formální tón je v bankovnictví očekáván. Používejte vždy vykání, nikdy tykání. I přesto, že používáte malé `v`, zachovejte zdvořilý a profesionální tón.
+- Jakmile si zvolíte malé nebo velké V, **držte se ho v celém produktu**. Přepínání mezi obrazovkami mate.
+- I s malým `v` zůstáváme zdvořilí a přátelští – to je přece Air Bank.
 
 ---
 
 ## 2. Interpunkce
 
-### 2.1 Obecné pravidlo mezer
+### 2.1 Kam patří mezery (a kam ne)
 
-Tečka, čárka, dvojtečka, středník, vykřičník a otazník se **připojují k předchozímu slovu bez mezery**. Za nimi **následuje mezera**.
+Tečka, čárka, dvojtečka, středník, vykřičník a otazník se **lepí k předchozímu slovu** (žádná mezera před nimi). Mezera patří **za ně**.
 
 ```
 ✅ Zadejte částku. Potvrdíte tlačítkem „Odeslat".
@@ -48,36 +47,35 @@ Tečka, čárka, dvojtečka, středník, vykřičník a otazník se **připojuj�
 ### 2.2 Tečka
 
 - Ukončuje oznamovací věty.
-- **Nepíše se** za nadpisy, popisky, štítky (labely) a položkami menu, které stojí samostatně.
-- Dvě tečky se nikdy nepíšou vedle sebe – tečka za zkratkou na konci věty slouží zároveň jako tečka ukončující větu.
+- **Nedáváme ji** za nadpisy, popisky, labely ani položky menu, které stojí samy na řádku.
+- Dvě tečky vedle sebe nikdy – tečka za zkratkou na konci věty platí zároveň jako tečka za větou.
 
 ```
-✅ Transakce byla provedena v 15.30 hod.     (jedna tečka na konci)
-❌ Transakce byla provedena v 15.30 hod..    (dvě tečky)
+✅ Transakce byla provedena v 15.30 hod.     (stačí jedna tečka)
+❌ Transakce byla provedena v 15.30 hod..    (dvě tečky = chyba)
 ```
 
 ### 2.3 Čárka
 
-- Odděluje věty a rovnocenné větné členy, které nejsou spojeny spojkami `a`, `i`, `ani`, `nebo`, `či`.
-- Píše se **vždy** před `ale`, `avšak`, `nýbrž`, `neboť`, `přestože`, `ačkoli`.
-- Čárka **před `a`**: píše se pouze tehdy, když `a` spojuje věty s **různým podmětem** nebo má **odporovací význam** (= ale).
+- Odděluje věty a větné členy, které nejsou spojené spojkami `a`, `i`, `ani`, `nebo`, `či`.
+- **Vždycky** ji pište před `ale`, `avšak`, `nýbrž`, `neboť`, `přestože`, `ačkoli`.
+- Čárka **před `a`**: jen když `a` spojuje věty s různým podmětem, nebo má význam „ale".
 
 ```
-✅ Zadejte PIN, a pokud je správný, transakce bude provedena.
+✅ Zadejte PIN, a pokud je správný, transakce proběhne.
 ✅ Účet je aktivní a připravený k použití.
 ```
 
 ### 2.4 Středník
 
-- Odděluje silněji než čárka, ale slaběji než tečka.
-- Vhodný v seznamech, kde jednotlivé položky obsahují čárky.
-- V moderních UX textech se používá zřídka – upřednostňujte kratší věty oddělené tečkou.
+- Odděluje silněji než čárka, ale mírněji než tečka.
+- Hodí se hlavně v seznamech, kde položky samy o sobě obsahují čárky.
+- V běžných UX textech ho moc nepotkáte – radši pište kratší věty s tečkou.
 
 ### 2.5 Dvojtečka
 
-- Uvozuje výčty, vysvětlení a přímou řeč.
-- Pokud po ní následuje **celá věta**: první písmeno je **velké**.
-- Pokud po ní následuje **slovo nebo slovní spojení**: první písmeno je **malé**.
+- Uvádí výčty, vysvětlení nebo přímou řeč.
+- Když po ní následuje **celá věta**, píšeme velké písmeno. Když jen slovo nebo fráze, malé.
 
 ```
 ✅ Poznámka: transakce může trvat až 2 pracovní dny.
@@ -87,20 +85,20 @@ Tečka, čárka, dvojtečka, středník, vykřičník a otazník se **připojuj�
 ### 2.6 Otazník a vykřičník
 
 - Za otazníkem ani vykřičníkem se **nepíše tečka**.
-- V bankovních aplikacích **používejte vykřičník střídmě** – nadměrné použití působí neprofesionálně.
+- S vykřičníky to nepřehánějte. Jeden vykřičník řekne všechno, tři působí hystericky.
 
 ```
 ✅ Opravdu chcete zrušit platbu?
 ✅ Pozor: Tuto akci nelze vrátit zpět.
-❌ Pozor! Tuto akci nelze vrátit zpět!     (příliš mnoho vykřičníků)
+❌ Pozor! Tuto akci nelze vrátit zpět!     (příliš dramatické)
 ```
 
 ### 2.7 Tři tečky (výpustka)
 
-- Správně se zapisují jako **jeden znak** `…` (Unicode U+2026), ne jako tři samostatné tečky.
-- Za nedokončeným slovem: **bez mezery** před, **mezera** za: `Načítání…`
-- Nikdy nepište čtyři tečky (tři tečky + tečka).
-- Před dalším interpunkčním znaménkem bez mezery: `…?`, `…!`
+- Správně to je **jeden znak** `…` (Unicode U+2026), ne tři tečky za sebou.
+- Když navazují na slovo, píšou se **bez mezery** před a s **mezerou** za: `Načítání…`
+- Čtyři tečky neexistují (tři tečky + tečka = špatně).
+- Před `?` nebo `!` taky bez mezery: `…?`, `…!`
 
 ```
 ✅ Zpracováváme vaši žádost…
@@ -110,21 +108,20 @@ Tečka, čárka, dvojtečka, středník, vykřičník a otazník se **připojuj�
 
 ### 2.8 Závorky
 
-- Před otevírací závorkou mezera, za ní ne.
-- Před uzavírací závorkou ne, za ní mezera.
-- Tečka se píše **za** uzavírací závorkou, pokud je v závorkách jen část věty.
+- Před otevírací závorkou mezera, za ní ne. Před zavírací ne, za ní mezera.
+- Tečka patří **za** zavírací závorku, pokud závorka obklopuje jen část věty.
 
 ```
-✅ Poplatek za vedení účtu (měsíčně) je 49 Kč.
+✅ Poplatek za vedení účtu (měsíčně) je 0 Kč.
 ```
 
 ---
 
 ## 3. Uvozovky
 
-### České uvozovky
+### Jak vypadají české uvozovky
 
-V češtině se používají **typografické uvozovky** ve stylu 99–66 (dolní–horní):
+V češtině se používají **typografické uvozovky** – dolní na začátku, horní na konci (styl 99–66):
 
 | Typ | Znaky | Příklad |
 |---|---|---|
@@ -133,16 +130,16 @@ V češtině se používají **typografické uvozovky** ve stylu 99–66 (dolní
 
 ### Pravidla
 
-- **Nikdy nepoužívejte** rovné/ASCII uvozovky `"..."` ani anglické uvozovky `"..."`.
-- Uvozovky se **připojují přímo** k uzavřenému textu bez mezer: `„takto"`.
-- Vnořené uvozovky: jednoduché uvnitř dvojitých: `„řekl ‚ano' a odešel"`.
-- Pokud je celá věta v uvozovkách, závěrečná uvozovka se píše **za interpunkcí**.
+- **Nikdy nepoužívejte** rovné uvozovky `"..."` ani anglické `"..."`. Vypadá to nedodělaně.
+- Uvozovky se **lepí přímo k textu** bez mezer: `„takto"`.
+- Uvozovky v uvozovkách? Jednoduché dovnitř dvojitých: `„řekl ‚ano' a odešel"`.
+- U celé věty v uvozovkách jde závěrečná uvozovka **za interpunkci**.
 
 ```
 ✅ Tlačítko „Odeslat platbu"
 ✅ Stiskněte „Potvrdit".
 ❌ Tlačítko "Odeslat platbu"     (rovné uvozovky)
-❌ Tlačítko " Odeslat platbu "   (mezery uvnitř uvozovek)
+❌ Tlačítko " Odeslat platbu "   (mezery uvnitř – taky špatně)
 ```
 
 ---
@@ -151,7 +148,7 @@ V češtině se používají **typografické uvozovky** ve stylu 99–66 (dolní
 
 ### Základní pravidlo: sentence case
 
-V češtině se **vždy** používá „sentence case" – velké písmeno pouze na začátku věty/fráze. „Title Case" (velká písmena na začátku každého slova) je anglický zvyk a v češtině působí nepřirozeně.
+V češtině velké písmeno jen na začátku věty nebo fráze. „Title Case" (velká písmena u každého slova) je anglický zvyk – v češtině to vypadá divně a nezvykle.
 
 | Prvek UI | Pravidlo | Příklad |
 |---|---|---|
@@ -162,23 +159,22 @@ V češtině se **vždy** používá „sentence case" – velké písmeno pouze
 | Popisky (labely) | Velké jen první písmeno | `Číslo účtu` |
 | Chybové hlášky | Velké jen první písmeno | `Neplatné číslo karty` |
 
-### Co se v češtině píše s malým písmenem (na rozdíl od angličtiny)
+### V češtině píšeme s malým písmenem (na rozdíl od angličtiny)
 
 - Dny v týdnu: `pondělí`, `úterý`, `středa`
 - Měsíce: `leden`, `únor`, `březen`
 - Jazyky: `čeština`, `angličtina`
-- Přídavná jména odvozená od vlastních jmen: `pražský`, `evropský`
-- Národnosti (přídavná jména): `český`, `německý`
+- Přídavná jména od vlastních jmen: `pražský`, `evropský`
 - Názvy funkcí produktu: `ochrana proti podvodům`, `správa účtů`
 
-### Co se píše s velkým písmenem
+### Velké písmeno patří k
 
-- Vlastní jména: `Česká národní banka`, `Česká republika`
-- Názvy institucí: `Ministerstvo financí`
-- Vlastní názvy produktů a služeb: `George`, `Servis 24`
-- Názvy zákonů (první slovo): `Zákon o bankách`
+- Vlastním jménům: `Česká národní banka`, `Air Bank`
+- Názvům institucí: `Ministerstvo financí`
+- Názvům našich produktů a služeb (pokud je to jejich oficiální jméno)
+- Názvům zákonů (první slovo): `Zákon o bankách`
 
-> **Bankovní specifika:** Názvy konkrétních bankovních produktů (např. `Spořicí účet Plus`) jsou vlastní jména a píšou se s velkým písmenem. Obecné pojmy (`spořicí účet`, `běžný účet`, `kreditní karta`) se píšou s malým.
+Obecné pojmy jako `spořicí účet`, `běžný účet` nebo `kreditní karta` se píšou s malým písmenem. Velké je jen u konkrétního pojmenování produktu, když je to jeho oficiální název.
 
 ---
 
@@ -186,48 +182,46 @@ V češtině se **vždy** používá „sentence case" – velké písmeno pouze
 
 ### Datum
 
-| Formát | Příklad | Použití |
+| Formát | Příklad | Kdy ho použít |
 |---|---|---|
-| Vzestupný (standardní) | `17. 3. 2026` | UI, přehledy, obecné zobrazení |
-| Slovně-číselný | `17. března 2026` | Formální dokumenty, smlouvy, potvrzení |
-| Sestupný (ISO 8601) | `2026-03-17` | Technické/databázové kontexty |
+| Vzestupný (standardní) | `17. 3. 2026` | V aplikaci – přehledy, seznamy, obecné zobrazení |
+| Slovně-číselný | `17. března 2026` | Smlouvy, výpisy, potvrzení – formálnější kontext |
+| ISO 8601 | `2026-03-17` | Technické a databázové kontexty, API |
 
-#### Pravidla
+#### Na co nezapomenout
 
-- Za číslem dne a měsíce se píše **tečka a mezera**: `17. 3. 2026` (nikoli `17.3.2026`).
-- Měsíce se v češtině píšou **s malým písmenem**: `března`, `ledna`.
-- Ve slovně-číselném formátu je měsíc ve **2. pádu** (genitiv): `17. března 2026`.
-- Rok se **nikdy neodděluje** mezerami: `2026` (nikoli `2 026`).
+- Za číslem dne i měsíce je **tečka a mezera**: `17. 3. 2026` (ne `17.3.2026`).
+- Měsíce píšeme **s malým písmenem**: `března`, `ledna`.
+- Ve slovně-číselném formátu je měsíc ve **2. pádu**: `17. března 2026`.
+- Rok se **nikdy nerozděluje** mezerami: `2026` (ne `2 026`).
 
 ```
 ✅ Datum splatnosti: 17. 3. 2026
 ✅ Smlouva ze dne 17. března 2026
 ❌ Datum splatnosti: 17.3.2026         (chybí mezery)
-❌ Datum splatnosti: 17. Března 2026   (velké M)
+❌ Datum splatnosti: 17. Března 2026   (velké M u měsíce)
 ```
 
-> **Bankovní specifika:** Pro výpisy a formální potvrzení upřednostňujte slovně-číselný formát (`17. března 2026`), který je jednoznačný a odpovídá požadavkům finančních dokumentů.
+Pro výpisy a formální potvrzení je lepší slovně-číselný formát (`17. března 2026`) – je jednoznačný a nikdo si ho nesplete.
 
 ### Čas
 
-- Hodiny a minuty se oddělují **tečkou** (český zvyk) nebo **dvojtečkou**: `9.30` nebo `9:30`.
-- Zvolený formát musí být **konzistentní** v celé aplikaci.
-- Jednotky se zkracují: `hod.`, `min.`, `s`
+- Hodiny a minuty oddělujeme **tečkou** (český zvyk) nebo **dvojtečkou**: `9.30` nebo `9:30`.
+- V rámci celé aplikace se ale držte **jednoho** formátu.
+- U transakcí uvádějte přesný čas i se sekundami: `17. 3. 2026, 14:35:22`. Vždy 24hodinový formát.
 
 ```
-✅ Převod bude proveden v 14.00 hod.
+✅ Převod proběhne v 14.00 hod.
 ✅ Pobočka otevřena: 9:00–17:00
 ```
-
-> **Bankovní specifika:** U časových razítek transakcí uvádějte přesný čas včetně sekund: `17. 3. 2026, 14:35:22`. Používejte 24hodinový formát.
 
 ---
 
 ## 6. Formát čísel
 
-### Desetinný oddělovač
+### Desetinná čárka (ne tečka!)
 
-V češtině je desetinným oddělovačem **čárka** (nikoli tečka):
+V češtině je desetinným oddělovačem **čárka**. Tečka je anglický zvyk.
 
 ```
 ✅ 3,14
@@ -235,9 +229,9 @@ V češtině je desetinným oddělovačem **čárka** (nikoli tečka):
 ❌ 3.14
 ```
 
-### Oddělovač tisíců
+### Oddělování tisíců
 
-Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
+Tisíce oddělujeme **mezerou** (ideálně nezlomitelnou). Ne tečkou, ne čárkou.
 
 ```
 ✅ 1 234 567
@@ -246,14 +240,12 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 ❌ 1.234.567
 ```
 
-#### Podrobná pravidla
+#### Detaily
 
-- Čísla s **5 a více ciframi** se povinně člení po třech: `12 345`, `1 234 567`.
-- Čtyřciferná čísla: lze psát bez mezery (`6000`) i s mezerou (`7 530`).
-- **Roky se nikdy nečlení**: `2026`, `1945`.
-- Čísla za desetinnou čárkou se člení po třech od čárky doprava: `3,141 592 65`.
-
-> **Bankovní specifika:** U finančních částek vždy oddělujte tisíce mezerou pro čitelnost. U čtyřciferných částek rovněž doporučujeme mezeru: `1 500 Kč` (nikoli `1500 Kč`).
+- Čísla s **5 a více ciframi** členíme po třech: `12 345`, `1 234 567`.
+- Čtyřciferná čísla: jde to obojí (`6000` i `6 000`), ale u peněžních částek doporučujeme mezeru pro lepší čitelnost: `1 500 Kč`.
+- **Roky nečleníme nikdy**: `2026`, `1945`.
+- Za desetinnou čárkou členíme po třech směrem doprava: `3,141 592 65`.
 
 ---
 
@@ -261,24 +253,24 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 
 ### Česká koruna (Kč)
 
-| Pravidlo | Příklad |
-|---|---|
-| Symbol `Kč` za číslem s mezerou | `1 234 Kč` |
-| Haléře za desetinnou čárkou | `1 234,50 Kč` |
-| Celé částky bez desetinných míst | `500 Kč` |
-| V tabulkách s různými částkami zarovnávejte nulami | `500,00 Kč` |
-| Kód CZK v mezinárodním kontextu | `1 234 CZK` |
+| Co | Jak | Příklad |
+|---|---|---|
+| Symbol `Kč` | Za číslem, s mezerou | `1 234 Kč` |
+| Haléře | Za desetinnou čárkou | `1 234,50 Kč` |
+| Celé částky | Bez desetinných míst | `500 Kč` |
+| V tabulkách | Zarovnat nulami | `500,00 Kč` |
+| Mezinárodní kód | `CZK` za číslem | `1 234 CZK` |
 
-#### Podrobná pravidla
+#### Co si zapamatovat
 
-- Symbol `Kč` se píše **za číslem** s mezerou: `500 Kč`.
-- ČSN 01 6910 **již nedoporučuje** zápis s pomlčkou místo haléřů (`500,– Kč`). Pište `500 Kč` nebo `500,00 Kč`.
-- V tabulkách, kde se mísí celé částky a částky s haléři, doplňte nuly pro zarovnání: `500,00 Kč`.
-- Tisíce oddělujte mezerou: `1 234 567,89 Kč`.
+- `Kč` píšeme **za číslem** s mezerou: `500 Kč`.
+- Zápis s pomlčkou místo haléřů (`500,– Kč`) je zastaralý – norma ČSN 01 6910 ho už nedoporučuje. Pište `500 Kč` nebo `500,00 Kč`.
+- Když v tabulce máte mix celých částek a haléřových, sjednoťte to nulami: `500,00 Kč`.
+- Tisíce vždy s mezerou: `1 234 567,89 Kč`.
 
 ```
 ✅ Zůstatek na účtu: 158 320,50 Kč
-✅ Poplatek: 49 Kč
+✅ Poplatek: 0 Kč
 ✅ Převedená částka: 25 000,00 Kč
 ❌ Zůstatek na účtu: 158320.50 CZK
 ❌ Poplatek: 49,- Kč
@@ -293,19 +285,18 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 | Americký dolar | `USD` za číslem nebo `$` | `2 340,00 USD` |
 | Britská libra | `GBP` za číslem nebo `£` | `890,00 GBP` |
 
-- Slovo `euro` je **středního rodu**, skloňuje se jako `město`: 1 euro, 2 eura, 5 eur.
-- Píše se **s malým písmenem**: `euro` (nikoli `Euro`).
+Slovo `euro` je středního rodu a skloňuje se jako `město`: 1 euro, 2 eura, 5 eur. Píše se s malým písmenem.
 
-> **Bankovní specifika:** V přehledech kurzů a mezinárodních převodech vždy používejte mezinárodní kódy ISO 4217 (`CZK`, `EUR`, `USD`). V běžném UI pro domácí transakce používejte `Kč`.
+V kurzovních přehledech a mezinárodních převodech používejte ISO kódy (`CZK`, `EUR`, `USD`). V běžném UI pro domácí transakce stačí `Kč`.
 
 ---
 
 ## 8. Procenta a úrokové sazby
 
-- Značka `%` se odděluje **mezerou** od čísla: `5,49 %`.
-- Výjimka – když tvoří přídavné jméno, píše se **bez mezery**: `5% úrok` (= pětiprocentní úrok).
+- Značka `%` se od čísla odděluje **mezerou**: `5,49 %`.
+- Výjimka – pokud z toho děláte přídavné jméno, mezeru vynechte: `5% sleva` (= pětiprocentní sleva).
 - Zkratka `p. a.` (per annum) se píše s mezerami a tečkami: `5,49 % p. a.`
-- Zkratka `p. m.` (per mensem) analogicky: `0,46 % p. m.`
+- Stejně tak `p. m.` (per mensem): `0,46 % p. m.`
 
 ```
 ✅ Úroková sazba: 5,49 % p. a.
@@ -316,83 +307,82 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 
 ---
 
-## 9. Čísla účtů, karty, identifikátory
+## 9. Čísla účtů, karty a identifikátory
 
 ### Číslo bankovního účtu (český formát)
 
 - Formát: `předčíslí-číslo účtu/kód banky`
-- Předčíslí (nepovinné, max. 6 číslic): `19-2000145399/0800`
+- S předčíslím: `19-2000145399/0800`
 - Bez předčíslí: `2000145399/0800`
-- IBAN: `CZ65 0800 0000 1920 0014 5399` (skupiny po 4 znacích oddělené mezerami)
-
-```
-✅ 19-2000145399/0800
-✅ CZ65 0800 0000 1920 0014 5399
-```
+- IBAN: skupiny po 4 znacích oddělené mezerami: `CZ65 0800 0000 1920 0014 5399`
 
 ### Číslo platební karty
 
-- Zobrazuje se ve skupinách po **4 číslicích** oddělených mezerou: `4321 1234 5678 9012`.
-- Z bezpečnostních důvodů maskujte středové skupiny: `4321 •••• •••• 9012`.
+- Skupiny po **4 číslicích** s mezerou: `4321 1234 5678 9012`.
+- Z bezpečnostních důvodů maskujeme střední skupiny: `4321 •••• •••• 9012`.
 
 ### Variabilní symbol, specifický symbol, konstantní symbol
 
-- Zobrazujte **bez mezer a oddělovačů**: `1234567890`.
+- Zobrazujeme **bez mezer a oddělovačů**: `1234567890`.
 
 ---
 
 ## 10. Telefonní čísla
 
-- Česká telefonní čísla mají **9 číslic** (po předvolbě `+420`).
-- Standardní formát: `+420 XXX XXX XXX` (tři skupiny po třech).
-- Předvolba se odděluje mezerou: `+420 234 567 890`.
+Česká telefonní čísla mají 9 číslic (po předvolbě `+420`) a formátujeme je po trojicích:
 
 ```
 ✅ +420 234 567 890
 ✅ 800 123 456 (bezplatná linka)
-❌ +420234567890
-❌ +420-234-567-890
+❌ +420234567890       (nečitelné)
+❌ +420-234-567-890    (pomlčky tu nepatří)
 ```
 
-> **Bankovní specifika:** U zákaznické linky banky uvádějte vždy ve formátu s mezerami. Pro bezplatné linky uvádějte: `800 XXX XXX` (bez předvolby +420).
+Pro bezplatné linky stačí formát bez předvolby: `800 XXX XXX`.
 
 ---
 
 ## 11. Spojovník a pomlčka
 
-### Spojovník (krátká čárka `-`)
+Jsou to dva různé znaky a každý má jiný úkol. Zaměňovat je je typografický hřích.
 
-- Bez mezer.
-- Použití: složená slova (`česko-slovenský`), spojené obce (`Praha-Hostivař`), přípona `-li` (`mohl-li`).
+### Spojovník (krátký `-`)
 
-### Pomlčka (delší čárka `–`)
+Bez mezer. Spojuje části složených slov.
 
-**S mezerami** – vsuvka, význam „versus":
+- Složená slova: `česko-slovenský`
+- Spojené obce: `Praha-Hostivař`
+- Přípona `-li`: `mohl-li`
+
+### Pomlčka (delší `–`)
+
+Má dva režimy:
+
+**S mezerami** – vsuvka nebo význam „versus":
 
 ```
 ✅ Přihlásit se – pokud máte účet – můžete zde.
 ✅ Výhody – Nevýhody
 ```
 
-**Bez mezer** – rozsah „od–do":
+**Bez mezer** – rozsah „od do":
 
 ```
 ✅ 1. 1.–31. 12. 2026
 ✅ 9:00–17:00
 ✅ 1 000–5 000 Kč
-✅ strana 12–15
 ```
 
-- U rozsahů s víceslovnými výrazy se pomlčka píše **s mezerami**: `Praha 1 – Praha 5`.
-- **Nepoužívejte spojovník** místo pomlčky a naopak.
+Pozor: u víceslovných rozsahů se pomlčka píše **s mezerami**: `Praha 1 – Praha 5`.
 
 ### Znaménko minus `−`
 
-- Zvláštní znak (Unicode U+2212), jiný než spojovník i pomlčka.
-- Záporná čísla: `−10 °C`, `−1 500 Kč`.
-- V matematických operacích s mezerami: `10 − 5 = 5`.
+Tohle je ještě jiný znak (Unicode U+2212) – není to ani spojovník, ani pomlčka.
 
-> **Bankovní specifika:** U záporných zůstatků a debetních transakcí používejte správné znaménko minus: `−1 500,00 Kč`. Nikoli spojovník `-1 500,00 Kč`.
+- Záporná čísla: `−10 °C`, `−1 500 Kč`
+- Matematika: `10 − 5 = 5`
+
+U záporných zůstatků a debetních transakcí v aplikaci používejte správné minus: `−1 500,00 Kč`. Spojovník `-1 500,00 Kč` vypadá neprofesionálně.
 
 ---
 
@@ -400,7 +390,7 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 
 ### Zkratky s tečkou
 
-| Zkratka | Plný tvar |
+| Zkratka | Co znamená |
 |---|---|
 | `č.` | číslo |
 | `tj.` | to jest |
@@ -414,19 +404,15 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 | `max.` | maximálně |
 | `min.` | minimálně |
 
-#### Pravidla
+#### Co si hlídat
 
-- Víceslovné zkratky se píšou **jako jedno slovo**: `tj.`, `mj.`, `atd.`, `apod.`
-- Před `atd.`, `apod.`, `aj.` se **nepíše čárka** – pokračují výčet spojený spojkou `a`.
-- Dvě tečky vedle sebe se nikdy nepíšou.
-
-### Stažené zkratky (bez tečky)
-
-- Vznikají z prvního a posledního písmene: `fa` (firma), `pí` (paní), `ca` (circa).
+- Víceslovné zkratky píšeme **dohromady**: `tj.`, `mj.`, `atd.`, `apod.`
+- Před `atd.`, `apod.`, `aj.` se **nedává čárka** – pokračují výčet se spojkou `a`.
+- Dvě tečky vedle sebe neexistují. Když zkratka s tečkou končí větu, platí ta jedna za obě.
 
 ### `viz` není zkratka
 
-- Je to rozkazovací způsob slovesa `vidět`. **Nepíše se za ním tečka** (pokud neukončuje větu).
+Tohle je častý omyl. `viz` je rozkazovací způsob slovesa `vidět` – **nepíšeme za ním tečku**.
 
 ```
 ✅ Více informací viz sekce „Poplatky".
@@ -435,10 +421,10 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 
 ### Značky a jednotky
 
-- Bez tečky, oddělené mezerou: `30 m`, `15 %`, `100 kg`, `20 °C`.
-- Výjimka – tvoří-li přídavné jméno, bez mezery: `5%`, `30denní`.
+- Bez tečky, s mezerou od čísla: `30 m`, `15 %`, `100 kg`, `20 °C`.
+- Výjimka: když z toho děláte přídavné jméno, mezeru vynechte: `5%`, `30denní`.
 
-### Finanční a bankovní zkratky
+### Finanční zkratky, které potkáte denně
 
 | Zkratka | Význam |
 |---|---|
@@ -456,17 +442,17 @@ Tisíce se oddělují **pevnou (nezlomitelnou) mezerou**:
 
 ## 13. Seznamy a výčty
 
-### Tři přístupy k formátování výčtů
+Výčty se dají formátovat třemi způsoby – záleží na tom, co v nich máte:
 
-| Typ | První písmeno | Koncová interpunkce | Poslední položka |
+| Typ položek | První písmeno | Čím končí | Poslední položka |
 |---|---|---|---|
-| Neslovesné položky (slova, fráze) | malé | čárka nebo středník | tečka |
-| Větné položky (celé věty) | velké | tečka | tečka |
-| Graficky oddělené (odrážky, bez vět) | malé | žádná | žádná |
+| Krátká slova, fráze | malé | čárka nebo středník | tečka |
+| Celé věty | velké | tečka | tečka |
+| Graficky oddělené (odrážky, krátké) | malé | nic | nic |
 
-### Pravidla pro bankovní aplikace
+### Jak to vypadá v praxi
 
-**Krátké položky (slova, fráze) – bez interpunkce:**
+**Krátké fráze s odrážkami – bez interpunkce:**
 
 ```
 Pro aktivaci potřebujete:
@@ -475,7 +461,7 @@ Pro aktivaci potřebujete:
 • mobilní telefon
 ```
 
-**Delší položky (fráze s čárkami) – středníky:**
+**Delší fráze (s čárkami uvnitř) – středníky:**
 
 ```
 K žádosti o úvěr přiložte:
@@ -493,57 +479,53 @@ Jak si aktivujete mobilní bankovnictví:
 • Potvrďte aktivaci SMS kódem.
 ```
 
-- Všechny položky ve výčtu musí mít **stejnou gramatickou strukturu**.
-- Nemíchejte věty s jednoslovnými položkami.
+Důležité: všechny položky v jednom výčtu musí mít **stejnou strukturu**. Nemíchejte věty s jednoslovnými hesly.
 
 ---
 
 ## 14. Generické maskulinum a inkluzivní jazyk
 
-### Aktuální stav
+### Jak to je
 
-Generické maskulinum (použití mužského rodu pro obě pohlaví) je v češtině stále **gramaticky správné** a běžně používané. ÚJČ jej uznává jako „úsporné a jasné".
+Generické maskulinum (mužský rod pro obě pohlaví) je v češtině pořád **gramaticky správné**. ÚJČ ho popisuje jako „úsporné a jasné".
 
-### Inkluzivní alternativy vhodné pro bankovní aplikace
+### Jak to řešíme
 
-| Místo generického maskulina | Použijte | Příklad |
-|---|---|---|
-| `klienti` | slovesné přídavné jméno | `klientela`, `klienti a klientky` |
-| `uživatelé` | opis | `osoby využívající službu` |
-| `podnikatelé` | obě formy | `podnikatelé a podnikatelky` |
-| – | 2. osoba | `Můžete si zvolit…` (místo `Klient si zvolí…`) |
+Nejjednodušší cesta? **Mluvte přímo na člověka.** Většinu textů v aplikaci píšeme ve 2. osobě (`vy`), takže se problému generického maskulina přirozeně vyhneme.
 
-### Doporučení pro bankovní aplikace
+| Místo tohoto | Napište raději |
+|---|---|
+| `Klient si může zvolit…` | `Můžete si zvolit…` |
+| `Uživatel musí zadat PIN` | `Zadejte svůj PIN` |
+| `Klienti mají nárok na…` | `Máte nárok na…` |
 
-- **V UI textech** upřednostňujte 2. osobu (`vy`), čímž se problému generického maskulina většinou vyhnete: `Zkontrolujte si zůstatek` místo `Klient si zkontroluje zůstatek`.
-- **V právních textech a smlouvách** je generické maskulinum stále standardem.
-- **Nepoužívejte** hvězdičkovou notaci (`klient*ka`) – v bankovním prostředí působí neprofesionálně a snižuje čitelnost.
+V právních textech a smlouvách je generické maskulinum stále standardem – tam ho klidně nechte.
+
+Hvězdičkovou notaci (`klient*ka`) nepoužíváme. Snižuje čitelnost a v bankovním prostředí působí nepatřičně.
 
 ---
 
 ## 15. Činný rod vs. trpný rod
 
-### Pravidlo
+### Proč na tom záleží
 
-V UX textech **upřednostňujte činný rod** (aktivní) před trpným rodem (pasivním). Činný rod je srozumitelnější a přímější.
+Činný rod je přímější, osobnější a srozumitelnější. Trpný rod zní úředně a neosobně. A to nechceme.
 
-| Trpný rod (nevhodné) | Činný rod (doporučené) |
+| Trpný rod (raději ne) | Činný rod (takhle ano) |
 |---|---|
 | `Platba byla odeslána.` | `Odeslali jsme platbu.` |
 | `Heslo bylo změněno.` | `Změnili jsme vaše heslo.` |
 | `Transakce bude provedena.` | `Provedeme transakci.` |
 | `Účet byl zablokován.` | `Zablokovali jsme váš účet.` |
 
-### Výjimky
+### Kdy je trpný rod v pohodě
 
-Trpný rod je přijatelný, pokud:
-
-- Není důležité, kdo akci provedl: `Karta byla doručena.` (doručil ji kurýr, ale to není podstatné).
-- Systém provedl akci automaticky: `Platba je naplánována na 17. 3. 2026.`
+- Když není důležité, kdo akci provedl: `Karta byla doručena.`
+- Když to udělal systém automaticky: `Platba je naplánována na 17. 3. 2026.`
 
 ### Tooltipy a popisy funkcí
 
-Používejte 3. osobu činného rodu:
+Tady používáme 3. osobu činného rodu:
 
 ```
 ✅ Zobrazí přehled transakcí
@@ -553,11 +535,11 @@ Používejte 3. osobu činného rodu:
 
 ---
 
-## 16. Typografie – souhrn pravidel
+## 16. Typografie – rychlý přehled
 
-### Mezery a interpunkce – přehled
+### Mezery a interpunkce na jednom místě
 
-| Znak | Před | Za | Příklad |
+| Znak | Mezera před | Mezera za | Příklad |
 |---|---|---|---|
 | Tečka `.` | ne | ano | `věta. Další` |
 | Čárka `,` | ne | ano | `slovo, slovo` |
@@ -575,19 +557,19 @@ Používejte 3. osobu činného rodu:
 | Spojovník `-` | ne | ne | `česko-německý` |
 | Procento `%` | ano | – | `5,49 %` |
 
-\* Pokud navazuje na slovo (nedokončená myšlenka).
+\* Když navazuje na slovo (nedokončená myšlenka).
 
 ### Nezlomitelné mezery
 
-Používejte nezlomitelné mezery (`&nbsp;` / Unicode U+00A0) v těchto případech:
+Nezlomitelná mezera zabrání tomu, aby se text rozlomil na nešťastném místě. Použijte ji:
 
 - Mezi číslem a jednotkou/měnou: `500 Kč`, `15 %`, `20 °C`
-- V datu mezi dnem a měsícem: `17. 3. 2026`
+- V datu: `17. 3. 2026`
 - Mezi skupinami číslic: `1 234 567`
-- Za jednopísmennými předložkami a spojkami: `v bance`, `s účtem`, `k platbě`
+- Za jednopísmennými předložkami: `v bance`, `s účtem`, `k platbě`
 - V telefonních číslech: `+420 234 567 890`
 
-> **Bankovní specifika:** Nezlomitelné mezery za jednopísmennými předložkami (`k`, `s`, `v`, `z`, `o`, `u`) jsou v bankovních textech obzvláště důležité – zabraňují osamocení předložky na konci řádku, což působí neprofesionálně.
+Osamocená předložka na konci řádku (`Přihlaste se k` / `vašemu účtu`) vypadá nepěkně. Nezlomitelná mezera to vyřeší.
 
 ---
 
@@ -603,9 +585,9 @@ PSČ Město
 
 ### Pravidla
 
-- **PSČ** má 5 číslic, mezera za třetí: `110 00`.
-- PSČ se píše na **stejném řádku** jako město, **před názvem města**: `110 00 Praha 1`.
-- Dva typy čísel budov: `číslo popisné` (červená tabulka) a `číslo orientační` (modrá tabulka), oddělené lomítkem: `Vodičkova 699/34`.
+- **PSČ** má 5 číslic s mezerou za třetí: `110 00`.
+- PSČ je na **stejném řádku** jako město a stojí **před ním**: `110 00 Praha 1`.
+- Číslo popisné (červená tabulka) a číslo orientační (modrá tabulka) se oddělují lomítkem: `Vodičkova 699/34`.
 
 ```
 ✅ Jan Novák
@@ -614,38 +596,39 @@ PSČ Město
 
 ❌ Jan Novák
    Vodičkova 699/34
-   Praha 1, 110 00          (PSČ za městem)
+   Praha 1, 110 00          (PSČ patří před město)
 ```
 
 ---
 
-## 18. Formát data v právních a finančních dokumentech
+## 18. Formáty data podle typu dokumentu
 
-Pro formální bankovní dokumenty (smlouvy, výpisy, potvrzení) platí přísnější pravidla:
+Různé dokumenty si žádají různé formáty – tady je přehled:
 
-| Typ dokumentu | Doporučený formát data | Příklad |
+| Typ dokumentu | Formát | Příklad |
 |---|---|---|
 | Smlouva | slovně-číselný | `dne 17. března 2026` |
 | Výpis z účtu | vzestupný číselný | `17. 3. 2026` |
 | Transakční historie | vzestupný + čas | `17. 3. 2026, 14:35:22` |
 | SWIFT zprávy | ISO 8601 | `2026-03-17` |
-| API/technické logy | ISO 8601 | `2026-03-17T14:35:22+01:00` |
+| API / technické logy | ISO 8601 | `2026-03-17T14:35:22+01:00` |
 
 ---
 
 ## 19. Odkazy a URL v textech
 
-### Pravidla pro kotevní text
+### Popisný text odkazu
 
-- Používejte **popisný text odkazu**, který říká, kam odkaz vede.
-- **Nepoužívejte** generické texty jako `Klikněte zde` nebo `Více informací`.
+Pište odkaz tak, aby člověk věděl, kam ho to pošle – i bez kontextu kolem.
 
 ```
 ✅ Přečtěte si podmínky pro vedení účtu.
-✅ Zjistěte více o úrokových sazbách.
+✅ Zjistěte víc o úrokových sazbách.
 ❌ Klikněte zde pro více informací.
 ❌ Více zde.
 ```
+
+`Klikněte zde` je klasika, která nic neříká. Tomu se vyhýbáme.
 
 ### Terminologie
 
@@ -658,21 +641,21 @@ Pro formální bankovní dokumenty (smlouvy, výpisy, potvrzení) platí přísn
 
 ### Základní pravidla
 
-- Jednoslabičná slova se **nedělí**: `účt`, `bank`.
+- Jednoslabičná slova se **nedělí**.
 - Dvouslabičná slova začínající samohláskou se **nedělí**: `účet`, `úrok`.
-- Nikdy nenechávejte osamocené písmeno na konci nebo začátku řádku.
-- Složená slova se dělí na hranici složek: `banko-mat`, `spořicí`.
-- Slova s předponou se dělí za předponou: `pře-vod`, `do-platek`, `na-stavení`.
+- Nenechávejte osamocené písmeno na konci nebo začátku řádku.
+- Složená slova dělíme na hranici složek: `banko-mat`.
+- Slova s předponou dělíme za předponou: `pře-vod`, `do-platek`, `na-stavení`.
 
-### Pravidlo pro pomlčkové složeniny
+### Pomlčkové složeniny
 
-- Pokud se slovo s pomlčkou dělí na místě pomlčky, pomlčka se **opakuje** na začátku dalšího řádku: `česko-` | `-slovenský`.
+Když se slovo s pomlčkou láme přesně na tom místě, pomlčka se **zopakuje** na začátku nového řádku: `česko-` | `-slovenský`.
 
 ---
 
 ## Zdroje
 
-- [Internetová jazyková příručka (ÚJČ)](https://prirucka.ujc.cas.cz/) – hlavní online referenční příručka českého jazyka
+- [Internetová jazyková příručka (ÚJČ)](https://prirucka.ujc.cas.cz/) – hlavní online příručka českého jazyka
 - [ČSN 01 6910](https://ujc.cas.cz/wp-content/uploads/2024/06/otazky-a-odpovedi-k-csn-01-6910_2014_ed1.pdf) – norma pro úpravu dokumentů
 - [Pravidla.cz](https://www.pravidla.cz/) – pravidla českého pravopisu
 - [Mozilla Czech L10n Style Guide](https://mozilla-l10n.github.io/styleguides/cs/general.html) – lokalizační pravidla pro software
